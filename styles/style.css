@@ -401,7 +401,6 @@
 
 .dialog__content {
   display: flex;
-  /*inline-size: clamp(16.0625rem, 15.2702rem + 3.3803vw, 18.3125rem);*/
   gap: 20px; 
   justify-content: center;
   align-items: center;
