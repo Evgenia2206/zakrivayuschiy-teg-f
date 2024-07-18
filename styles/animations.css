@@ -14,7 +14,7 @@
 */
 
 @keyframes hover-disable {
-  from { 
+  from {
     color: var(--accent-color);
   }
   to {
