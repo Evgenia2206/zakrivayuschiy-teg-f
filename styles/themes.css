@@ -4,3 +4,59 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+    --Inter: 'Inter-Variable';
+    --PressStart2P: 'PressStart2P';
+    --main-font-weight: 400;
+    --title-font-weight: 700;
+    --background-color: #ffffff;
+    --accent-color: #000000;
+    --background-image: 
+        repeating-linear-gradient(-90deg, #d3d3d3 0px 2px, transparent 2px 4px),
+        repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
+        linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+    --content-width: clamp(23.5rem, 16.344rem + 30.4511vw, 43.75rem);
+    --text-stroke-color: #ffffff;
+    --button__text-color: #ffffff;
+    --sparks-color: #ff0000;
+    --backdrop-color: rgba(0, 0, 0, 0.75);
+}
+
+:root.theme-dark {
+    --Inter: 'Inter-Variable';
+    --PressStart2P: 'PressStart2P';
+    --main-font-weight: 465;
+    --title-font-weight: 785;
+    --background-color: #000000;
+    --accent-color: #00cc14;
+    --background-image: 
+        repeating-linear-gradient(-90deg, #000 0px 2px, transparent 2px 4px),
+        repeating-linear-gradient(#000 0px 2px, transparent 2px 4px),
+        linear-gradient(#007f0c 0%, #007f0c 0.01%, #004306 100%);
+    --content-width: clamp(23.5rem, 16.344rem + 30.4511vw, 43.75rem);
+    --text-stroke-color: #000000;
+    --button__text-color: #00cc14;
+    --sparks-color: #ff0000;
+    --backdrop-color: rgba(0, 0, 0, 0.75);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    --Inter: 'Inter-Variable';
+    --PressStart2P: 'PressStart2P';
+    --main-font-weight: 465;
+    --title-font-weight: 785;
+    --background-color: #000000;
+    --accent-color: #00cc14;
+    --background-image: 
+        repeating-linear-gradient(-90deg, #000 0px 2px, transparent 2px 4px),
+        repeating-linear-gradient(#000 0px 2px, transparent 2px 4px),
+        linear-gradient(#007f0c 0%, #007f0c 0.01%, #004306 100%);
+    --content-width: clamp(23.5rem, 16.344rem + 30.4511vw, 43.75rem);
+    --text-stroke-color: #000000;
+    --button__text-color: #00cc14;
+    --sparks-color: #ff0000;
+    --backdrop-color: rgba(0, 0, 0, 0.75);
+    }
+  }
