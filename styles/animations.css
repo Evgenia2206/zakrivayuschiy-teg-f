@@ -14,13 +14,13 @@
 */
 
 @keyframes hover-disable {
-    from { 
-      color: var(--accent-color);
-    }
-    to {
-      color: var(--accent-color);
-      opacity: 0.6;
-    }
+  from { 
+    color: var(--accent-color);
+  }
+  to {
+    color: var(--accent-color);
+    opacity: 0.6;
+  }
 }
 
 @keyframes pointer {
